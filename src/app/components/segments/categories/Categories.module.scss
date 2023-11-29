@@ -1,0 +1,10 @@
+.categories {
+  width: calc(100vw - 256px);
+  background: radial-gradient(
+    50% 50% at 62.24% 50%,
+    rgb(41, 55, 91) 0%,
+    rgb(33, 39, 45) 100%
+  );
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
