@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  ::-webkit-scrollbar-thumb {
+    background: #5d6e7f;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #232c3c;
+  }
+}
