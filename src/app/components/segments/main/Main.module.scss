@@ -1,0 +1,19 @@
+.main {
+  position: absolute;
+  top: 80px;
+  right: 256px;
+  width: calc(100% - 256px);
+  display: grid;
+  grid-template-rows: min-content 1fr;
+
+  &.is-expanded {
+    right: 60px;
+    width: calc(100% - 60px);
+  }
+
+  &.is-full-width {
+    right: 0;
+    width: 100%;
+    top: 50px;
+  }
+}
