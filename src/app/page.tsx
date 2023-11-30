@@ -1,18 +1,19 @@
 import Header from "./components/layout/header/Header";
 import Sidebar from "./components/layout/sidebar/Sidebar";
-import Slider from "./components/segments/slider/Slider";
-import Categories from "./components/segments/categories/Categories";
-import styles from "./page.module.scss";
+import FooterNavigator from "./components/layout/footer-navigator/FooterNavigator";
+
+import { SidebarToggleProvider } from "./context/SidebarToggle";
+import Main from "./components/segments/main/Main";
 
 export default function Home() {
   return (
-    <div className={styles["home-page"]}>
-      <Header />
-      <Sidebar />
-      <main>
-        <Slider />
-        <Categories />
-      </main>
-    </div>
+    <>
+      <SidebarToggleProvider>
+        <Header />
+        <Sidebar />
+        <Main />
+      </SidebarToggleProvider>
+      <FooterNavigator />
+    </>
   );
 }
