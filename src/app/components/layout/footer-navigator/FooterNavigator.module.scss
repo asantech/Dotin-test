@@ -1,0 +1,15 @@
+@import "@/app/styles/colors.scss";
+
+.footer-navigator {
+  direction: rtl;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 75px;
+  z-index: 6;
+  border-top: 1px solid $gray-alpha;
+  background-color: $gray-beta;
+}
