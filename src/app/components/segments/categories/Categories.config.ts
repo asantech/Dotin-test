@@ -1,38 +1,47 @@
+import { t } from "@/localize/i18n";
+
 export type CategoryConfig = {
   iconPath: string;
   imagePath: string;
   text: string;
+  linkPath: string;
 };
 
 export const categoriesConfig: CategoryConfig[] = [
   {
-    iconPath: "",
-    imagePath: "",
-    text: "فیلم",
+    imagePath: "/assets/images/categories/progressive.jpg",
+    iconPath: "/assets/svgs/icons/home/icons/live.svg",
+    text: t("COMMON.LIVE_STREAMING"),
+    linkPath: "#",
   },
   {
-    iconPath: "",
-    imagePath: "",
-    text: "بازارچه",
+    imagePath: "/assets/images/categories/shop.png",
+    iconPath: "/assets/svgs/icons/home/icons/shop.png",
+    text: t("CATEGORIES.SHOP"),
+    linkPath: "#",
   },
   {
-    iconPath: "",
-    imagePath: "",
-    text: "پخش زنده",
+    imagePath: "/assets/images/categories/movie.jpg",
+    iconPath: "/assets/svgs/icons/home/icons/movie.svg",
+    text: t("COMMON.FILM"),
+    linkPath: "#",
   },
   {
-    iconPath: "",
-    imagePath: "",
-    text: "موسیقی",
+    imagePath: "/assets/images/categories/audiobook.jpg",
+    iconPath: "/assets/svgs/icons/home/icons/book.svg",
+    text: t("COMMON.AUDIO_BOOK"),
+    linkPath: "#",
   },
   {
-    iconPath: "",
-    imagePath: "",
-    text: "خدمات مالی",
+    imagePath: "/assets/images/categories/podipay.jpg",
+    iconPath: "/assets/svgs/icons/home/icons/cards.svg",
+    text: t("COMMON.FINANCIAL_SERVICES"),
+    linkPath: "#",
   },
   {
-    iconPath: "",
-    imagePath: "",
-    text: "کتاب صوتی",
+    imagePath: "/assets/images/categories/music.jpg",
+    iconPath: "/assets/svgs/icons/home/icons/music.svg",
+    text: t("COMMON.MUSIC"),
+    linkPath: "#",
   },
 ];

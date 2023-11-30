@@ -1,0 +1,20 @@
+@import "@/app/styles/colors.scss";
+
+.sub-menu-item {
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 12px;
+  color: $white-alpha;
+  font-weight: 300;
+  display: block;
+  height: 28px;
+  li {
+    list-style-type: circle;
+    color: $gray-delta;
+    margin-top: 6px;
+  }
+  .is-active {
+    color: $white-alpha;
+    font-weight: bold;
+  }
+}

@@ -1,10 +1,16 @@
+@import "@/app/styles/colors.scss";
+
 .categories {
-  width: calc(100vw - 256px);
   background: radial-gradient(
     50% 50% at 62.24% 50%,
-    rgb(41, 55, 91) 0%,
-    rgb(33, 39, 45) 100%
+    $blue-delta 0%,
+    $blue-epsilon 100%
   );
   display: grid;
+  padding: 18px;
+  grid-gap: 18px;
   grid-template-columns: repeat(3, 1fr);
+  @media screen and (max-width: 1200px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

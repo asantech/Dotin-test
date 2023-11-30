@@ -1,0 +1,49 @@
+{
+  "COMMON": {
+    "MAIN_PAGE": "صفحه اصلی",
+    "MY_LIST": "لیست من",
+    "SEARCH": "جستجو",
+    "LIVE_STREAMING": "پخش زنده",
+    "FILM": "فیلم",
+    "MUSIC": "موسیقی",
+    "AUDIO_BOOK": "کتاب صوتی",
+    "FINANCIAL_SERVICES": "خدمات مالی"
+  },
+  "FOOTER_NAVIGATOR": {
+    "PROFILE": "پروفایل",
+    "MORE": "بیشتر"
+  },
+  "CATEGORIES": { "SHOP": "بازار" },
+  "SIDEBAR": {
+    "MENU_ITEM": {
+      "IMAGING_SERVICES": "خدمات تصویری",
+      "AUDIO_SERVICES": "خدمات صوتی"
+    },
+    "SUB_MENU_ITEM": {
+      "SOAP_OPERA": "سریال",
+      "PODCAST": "پادکست",
+      "WALLET_TOP_UP": "شارژ کیف پول",
+      "FEE_PAYMENTS": "پرداخت قبوض",
+      "PURCHASE_INTERNET_PACKAGE": "خرید بسته اینترنت",
+      "SIM_CARD_TOP_UP": "شارژ سیم کارت"
+    }
+  },
+  "IMAGE": {
+    "ALT": {
+      "CATEGORY": "دسته بندی",
+      "CATEGORY_ICON": "لینک آیکن بندی",
+      "FOOTER_NAVIGATOR_ICON": "آیکن دکمه فوتر",
+      "HAMBURGER_TOGGLE_BUTTON_ICON": "دکمه تاگل همبرگر",
+      "SEARCH_ICON": "آیکن جستجو",
+      "APP_LOGO": "لوگوی اپلیکیشن",
+      "SIDEBAR_MENU_LINK_COLLAPSE_STATE_ICON": "آیکن وضعیت باز یا بیسته بودن لینک منوی نوار گوشه",
+      "SIDEBAR_MENU_LINK_ICON": "آیکن لینک منوی نوار گوشه",
+      "NAVIGATOR_SLIDER_LEFT_ICON": "آیکن سمت چپ اسلایدر",
+      "NAVIGATOR_SLIDER_RIGHT_ICON": "آیکن سمت راست اسلایدر",
+      "SWIPER_SLIDE_IMAGE": "تصویر داخل اسلاید اسوایپر"
+    }
+  },
+  "BUTTON": {
+    "SIGN_IN": "ورود"
+  }
+}

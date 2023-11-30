@@ -1,0 +1,28 @@
+@import "@/app/styles/colors.scss";
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 4;
+  .navigate-button {
+    cursor: pointer;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    height: 36px;
+    &:last-child {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

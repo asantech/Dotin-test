@@ -1,0 +1,16 @@
+@import "@/app/styles/colors.scss";
+
+.sign-in-button {
+  padding: 0px 24px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: $white-alpha;
+  color: $blue-alpha;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  margin: 0 0 0 30px;
+  justify-content: center;
+  align-items: center;
+}

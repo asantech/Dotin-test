@@ -3,6 +3,7 @@ import { categoriesConfig, CategoryConfig } from "./Categories.config";
 import styles from "./Categories.module.scss";
 
 function Categories() {
+ 
   return (
     <section className={styles["categories"]}>
       {categoriesConfig.map((categoryConfig: CategoryConfig, index: number) => {

@@ -2,14 +2,124 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Black.0c82357136706fe0b849.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Black.0c82357136706fe0b849.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Black.aca84f753ff041f9bbd6.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Black.45f207ebaeda42d31740.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Black.cdee2dc6ef6187c370dc.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Bold.51ba486fa50e8204665f.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Bold.51ba486fa50e8204665f.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Bold.424eca1112ae72643ee8.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Bold.aa12a017cbd4a5f73587.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Bold.282f38380a6bd094a001.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Medium.7fed925eed1fe5c4a633.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Medium.7fed925eed1fe5c4a633.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Medium.ed4ac452b05d496237b8.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Medium.10d80bfa89985b74a634.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Medium.f885eebbc714297156bb.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Light.2dffffe3b22e33c7ec29.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_Light.2dffffe3b22e33c7ec29.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Light.721eb7ab97005da7447e.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Light.955f38e3e1aab0d034a9.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_Light.cc2c043728adc25f924b.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.93a22db98bbe6a6fdef5.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.93a22db98bbe6a6fdef5.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.7f6c155499d3fd780868.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.e9c28ed76d8679566bd6.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum)_UltraLight.3a4474e9d8093ac7d0e8.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/IRANSansWeb(FaNum).1a6f8943e894fa4f861a.eot");
+  src: url("/assets/fonts/IRANSansWeb(FaNum).1a6f8943e894fa4f861a.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/IRANSansWeb(FaNum).8d649f69659e092cd2f9.woff2")
+      format("woff2"),
+    url("/assets/fonts/IRANSansWeb(FaNum).337881a1246d3b51b420.woff")
+      format("woff"),
+    url("/assets/fonts/IRANSansWeb(FaNum).732cabbff87f779b74d3.ttf")
+      format("truetype");
+}
+
+html,
+body,
+button {
+  font-family: IRANSans !important;
+}
+
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  ::-webkit-scrollbar-thumb {
-    background: #5d6e7f;
-    border-radius: 10px 10px 10px 10px;
-  }
+  background: linear-gradient(0deg, rgb(35, 43, 57), rgb(34, 40, 49)) no-repeat;
+}
 
-  ::-webkit-scrollbar-track {
-    background: #232c3c;
-  }
+button {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #232c3c;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5d6e7f;
+  border-radius: 10px 10px 10px 10px;
 }
