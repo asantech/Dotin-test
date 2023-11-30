@@ -1,7 +1,25 @@
+@import "@/app/styles/colors.scss";
+
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100% - 256px);
   height: 80px;
-  background: linear-gradient(0deg, rgb(35, 43, 57), rgb(34, 40, 49)) no-repeat;
+  background: linear-gradient(0deg, $blue-beta, $blue-gamma) no-repeat;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgba(69, 69, 69, 1);
+  z-index: 5;
+  padding: 0 10px 0 0;
+
+  &.is-expanded {
+    width: calc(100% - 60px);
+  }
+
+  &.is-full-width {
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+  }
 }
